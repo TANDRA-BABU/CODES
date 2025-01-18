@@ -34,7 +34,7 @@ void calculate(int *ptr, int n, int m)
 int main()
 {
     int n,m;
-    printf("Number of elements: ");
+    printf("Enter number of elements in the array: ");
     scanf("%d",&n);
     int arr[n];
     input(&arr[0],n);
